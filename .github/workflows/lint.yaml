@@ -23,4 +23,4 @@ jobs:
         run: npm install
 
       - name: prettier 
-        run: prettier --check "contracts/**/*.sol" 
+        run: npx prettier --check "contracts/**/*.sol" 
